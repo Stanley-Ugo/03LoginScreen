@@ -9,7 +9,52 @@
     <title>Login Screen</title>
 </head>
 <body>
-<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fugiat?</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center ugo">A Project based approach to learn Modal</h1>
+                <p class="text-center"><a href="#" data-target="#login-modal" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login Here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="login-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <img id="img_logo" class="img-thumbnail" src="header-bcg12.jpeg" alt="">
+                </div>
+                <div id="div-form">
+                    <form>
+                        <div class="modal-body">
+                            <div>
+                                <span> Type Your Email and Password Here: </span>
+                            </div>
+                               <input class="form-control" placeholder="Email" type="text" required/>
+                               <input class="form-control" placeholder="Password" type="password" required/>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg ">Login</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg ">Sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
